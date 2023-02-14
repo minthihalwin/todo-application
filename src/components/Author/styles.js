@@ -1,9 +1,9 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const AuthorContainer = styled.span`
-    font-size: 0.6rem;
+  font-size: 0.8rem;
 
-    a {
-        cursor: pointer;
-    }
+  a {
+    cursor: pointer;
+  }
 `;

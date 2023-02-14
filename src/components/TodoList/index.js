@@ -3,7 +3,6 @@ import { DeleteIcon, ListContainer, Row, Text } from "./styles";
 import axios from '../../axios'
 
 function TodoList({ todos, fetchData }) {
-  console.log(todos, "todos");
   
   const updateTodo = async (id) => {
     try {

@@ -23,7 +23,7 @@ function Todo() {
 
   const addTodo = async (e) => {
     e.preventDefault();
-    if (input.lenght === 0) return null;
+    if (input.length === 0) return null;
     await axios.post("/todos", [
       {
         ...todos,
@@ -33,10 +33,8 @@ function Todo() {
     ]);
     fetchData();
     setInput("");
-    console.log("addedTodo");
   };
 
-  console.log(todos, "todos");
   return (
     <Container>
       <h2>List of Todos</h2>
